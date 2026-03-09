@@ -1,0 +1,6 @@
+numero = float (input("Digite um numero:"))
+valida_nota = numero >= 6.0
+if valida_nota:
+    print ("Aprovado.")
+else:    
+    print ("Reprovado.")
