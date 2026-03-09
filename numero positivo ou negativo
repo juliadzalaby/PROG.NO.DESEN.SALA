@@ -2,8 +2,8 @@ numero = int (input("Digite um numero:"))
 valida_positivo = numero > 0
 valida_negativo = numero < 0
 if valida_positivo:
-    print ("O numero é positivo")
+    print ("O número é positivo")
 elif valida_negativo: 
-    print ("O numero é negativo")
+    print ("O número é negativo")
 else:    
-    print ("O numero é zero")
+    print ("O número é zero")
