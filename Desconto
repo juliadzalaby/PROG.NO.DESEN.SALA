@@ -1,8 +1,8 @@
-valor_compra = float(input("Digite o valor da compra: R$ "))
+valida_compra = float(input("Digite o valor da compra: R$ "))
 
-if valor_compra > 100:
-    desconto = valor_compra * 0.10
-    valor_final = valor_compra - desconto
+if valida_compra >= 100:
+    desconto = valida_compra * 0.10
+    valor_final = valida_compra - desconto
     print(f"Você teve um desconto de 10%! Seu valor atual é: R$ {valor_final:.2f}")
 else:
-    print(f"Você não teve um desconto! Seu valor atual é: R$ {valor_compra:.2f}")
+    print(f"Você não teve um desconto! Seu valor atual é: R$ {valida_compra:.2f}")
